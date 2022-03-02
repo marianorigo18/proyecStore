@@ -1,0 +1,25 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5em;
+    border-bottom: 1px solid black;
+}
+.header__logo{
+    width: 4em;
+    border-radius: 5px;
+}
+.header__nav{
+    display: flex;
+}
+.nav__ul{
+    display: flex;
+    list-style: none;
+
+}
+.nav__ul a{
+    text-decoration: none;
+    margin-right: 2em;
+    font-family: $ff-one;
+    color: $primary-color;
+}
